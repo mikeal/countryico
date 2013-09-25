@@ -1,0 +1,31 @@
+{
+  "name": "countryico",
+  "version": "0.0.0",
+  "description": "Get a country code icon url for a given country string.",
+  "main": "index.js",
+  "dependencies": {
+    "brfs": "~0.0.8",
+    "browserify": "~2.32.4",
+    "lodash.invert": "~2.1.0",
+    "lodash.map": "~2.1.0",
+    "lodash.zipobject": "~2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/countryico"
+  },
+  "keywords": [
+    "country",
+    "icons",
+    "browserify"
+  ],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mikeal/countryico/issues"
+  }
+}
