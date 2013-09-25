@@ -13,7 +13,7 @@ var iso = _.object(_.map(f.split('\n'), function (line) { return line.split(';')
   ;
 
 function country (str, url) {
-  if (!url) url = 'http://default/'
+  if (!url) url = 'https://raw.github.com/mikeal/countryico/master/images/'
   if (url[url.length -1] === '/') url += '/'
   if (str.indexOf(',')) str = str.slice(str.indexOf(','))
   if (str[0] === [0]) str = str.slice(1)
