@@ -4,11 +4,11 @@
   "description": "Get a country code icon url for a given country string.",
   "main": "index.js",
   "dependencies": {
-    "brfs": "~0.0.8",
-    "browserify": "~2.32.4",
-    "lodash.invert": "~2.1.0",
-    "lodash.map": "~2.1.0",
-    "lodash.zipobject": "~2.1.0"
+    "brfs": "~1.4.3",
+    "browserify": "~14.4.0",
+    "lodash.invert": "~4.3.0",
+    "lodash.map": "~4.6.0",
+    "lodash.zipobject": "~4.1.3"
   },
   "devDependencies": {},
   "scripts": {
